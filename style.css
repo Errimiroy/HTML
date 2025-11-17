@@ -1,0 +1,239 @@
+.hero_main_container{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+       
+}
+
+
+/* Stats Section Styles */
+.stats-section {
+    background: linear-gradient(135deg, #d8e0e8, #e9ecef); /* Light gradient background */
+    padding: 60px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.stat-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.stat-number:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    color: #ff66c4; /* Highlight color on hover */
+}
+
+.stat-text:hover {
+    color: #091a32; /* Darker text color on hover */
+}
+
+/* Move carousel arrows outside the cards */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Adjust width to position arrows outside */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ff66c4; /* Set your desired color */
+    border-radius: 50%; /* Optional: Make it circular */
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev {
+    left: -50px; /* Move the left arrow outside */
+}
+
+.carousel-control-next {
+    right: -50px; /* Move the right arrow outside */
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #128C7E; /* Change color on hover */
+}
+
+
+
+/* Call to Action Section */
+.cta-section {
+  background-color: #e3e9ef !important; /* Updated background color */
+  border-radius: 10px;
+  padding: 60px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  color: #091a32;
+}
+
+.cta-section p.lead {
+  font-size: 1.2rem;
+  color: #6c757d; /* Muted text color */
+}
+
+.cta-section .btn-primary {
+  background-color: #091a32; /* Primary button color */
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-section .btn-primary:hover {
+  background-color: #091a32; /* Darker shade on hover */
+}
+
+.cta-section .btn-outline-secondary {
+  border-color: #6c757d;
+  color: #6c757d;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-section .btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.cta-section a.text-muted {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.cta-section a.text-muted:hover {
+  text-decoration: underline;
+}
+
+/* Call to Action Section Success Text */
+.cta-section .text-success {
+  color: #ff66c4 !important; /* Apply the desired color */
+}
+
+.cta-section .text-success i {
+  color: #ff66c4 !important; /* Apply the desired color to the icon */
+}
+
+
+
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+/* Testimonial Card Styling */
+/* What Our Customers Are Saying Section */
+.customer-testimonials {
+  background-color: #f9f7fc; /* Light background */
+  padding: 100px 20px !important;
+  border-radius: 10px;
+}
+
+.customer-testimonials img {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.customer-testimonials h5 {
+  font-size: 1.2rem;
+  color: #ff66c4 !important; /* Highlighted text */
+  margin-bottom: 10px;
+}
+
+.customer-testimonials h2 {
+  font-size: 2.5rem;
+  color: #091a32;
+  margin-bottom: 20px;
+}
+
+
+#catagoey_filter > button{
+  color: #091a32 !important;
+  border: 1px solid #091a32;
+}
+
+#catagoey_filter > button:hover{
+  background-color: #091a32 !important;
+  color: white !important;
+  border: 1px solid #091a32;
+}
+
+.customer-testimonials p.lead {
+  font-size: 1.2rem;
+  color: #6c757d; /* Muted text */
+  margin-bottom: 20px;
+}
+
+.customer-testimonials .btn-primary {
+  background-color: #091a32; /* Button color */
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.customer-testimonials .btn-primary:hover {
+  background-color: #091a32; /* Darker shade on hover */
+}
+
+@media (min-width: 992px) {
+  .customer-testimonials .col-lg-6 {
+    padding-left: 40px; /* Add gap on the left */
+    padding-right: 40px; /* Add gap on the right */
+  }
+}
+
+/* Blog Card Category Tags */
+.card-tags {
+  background-color: #f8f9fa; /* Light background for tags container */
+  border-bottom: 1px solid #ddd; /* Divider below tags */
+  border-radius: 4px 4px 0 0; /* Rounded corners for top */
+  margin-bottom: 10px; /* Add spacing below the tags */
+}
+
+.card-tags .badge {
+  font-size: 0.8rem; /* Smaller font size for tags */
+  padding: 5px 10px;
+  border-radius: 20px; /* Rounded badges */
+  color: #fff; /* White text */
+  background-color: #d14a8c !important;
+}
+
+.card-tags .badge.bg-primary {
+  background-color: #6c63ff; /* Custom blue for tags */
+}
+
+.card-tags .badge.bg-primary:hover {
+  background-color: #5145cd; /* Darker shade on hover */
+}
+
+/* Read More Button Styling */
+.blog-card a.text-success {
+  color: #091a32 !important; /* Update the text color */
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.blog-card a.text-success:hover {
+  color: #d14a8c; /* Slightly darker shade on hover */
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+
+
+
+
