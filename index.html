@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FXCracked - Forex Resources</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      /* Custom CSS */
+      .top-header {
+        background-color: #092159; /* Telegram Blue */
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .top-header a {
+        color: #ff66c4;
+        text-decoration: none;
+        font-weight: 600;
+        display: inline-block;
+        transition: all 0.3s;
+      }
+
+      .top-header a:hover {
+        color: #71b7cd;
+        transform: translateY(-2px);
+      }
+
+      .main-navbar {
+        background-color: #091a32; /* Dark Blue */
+        padding: 15px 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .navbar-brand {
+        font-weight: 700;
+        color: white !important;
+        font-size: 24px;
+      }
+
+      .navbar-brand img {
+        height: 40px;
+        margin-right: 10px;
+      }
+
+      .nav-link {
+        color: rgba(255, 255, 255, 0.9) !important;
+        font-weight: 500;
+        padding: 8px 15px !important;
+        margin: 0 5px;
+        transition: all 0.3s;
+      }
+
+      .nav-link:hover {
+        color: #ff66c4 !important;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+      }
+
+      .dropdown-menu {
+        background-color: #2a3f54;
+        border: none;
+      }
+
+      .dropdown-item {
+        color: rgba(255, 255, 255, 0.8);
+        padding: 8px 20px;
+      }
+
+      .dropdown-item:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white;
+      }
+
+      .whatsapp-btn {
+        background-color: #25d366; /* WhatsApp Green */
+        color: white !important;
+        border-radius: 5px;
+        padding: 8px 15px !important;
+        margin-left: 15px;
+        font-weight: 600;
+        transition: all 0.3s;
+      }
+
+      .whatsapp-btn:hover {
+        background-color: #128c7e;
+        transform: translateY(-2px);
+      }
+
+      .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.5);
+      }
+
+      .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      }
+
+      /* Change the color of carousel arrows */
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        background-color: #ff66c4; /* Set your desired color */
+        border-radius: 50%; /* Optional: Make it circular */
+        width: 40px;
+        height: 40px;
+      }
+
+      .carousel-control-prev-icon:hover,
+      .carousel-control-next-icon:hover {
+        background-color: #128c7e; /* Change color on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top Telegram Bar -->
+    <div class="top-header">
+      <a href="https://t.me/fxcracked" target="_blank">
+        <i class="fab fa-telegram"></i> JOIN OUR TELEGRAM CHANNEL FOR DAILY
+        SIGNALS
+      </a>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark main-navbar sticky-top">
+      <div class="container">
+        <!-- Logo on left -->
+        <a class="navbar-brand" href="#">
+          <img src="./images/FXCracked.org_.png" alt="FXCracked" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <!-- Centered Menu -->
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./popular-news.html">Popular News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="categoryDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Category
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
+                <li><a class="dropdown-item" href="#">Forex Bots</a></li>
+                <li><a class="dropdown-item" href="#">Indicators</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Trading Strategies</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">All Categories</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <!-- WhatsApp Button on right -->
+          <div class="d-flex">
+            <a
+              href="https://wa.me/1234567890?text=I%20want%20to%20sign%20up%20for%20FXCracked"
+              class="nav-link whatsapp-btn"
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i> Sign Up
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- -----------------------------------header close--------------------------------------------- -->
+
+    <!-- Hero Section  start-->
+    <div
+      class="hero_main_container d-flex align-items-center justify-content-between"
+      style="background-color: #f8f9fa"
+    >
+      <div class="hero_main_text" style="max-width: 50%; margin: 100px">
+        <h1
+          class="hero_main_title"
+          style="font-size: 3rem; font-weight: bold; color: #091a32"
+        >
+          F<span style="color: #ff66c4">XC</span>racked – Your Gateway <br />to
+          Smart Forex Insights
+        </h1>
+        <p
+          class="hero_main_subtext"
+          style="font-size: 1.2rem; color: #555; margin: 20px 0"
+        >
+          Explore the latest forex news, bot reviews, and top indicator
+          breakdowns <br />— everything a trader needs, all in one place.
+        </p>
+        <a
+          href="./about.html"
+          class="btn hero_main_btn"
+          style="
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            background-color: #091a32;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s;
+          "
+        >
+          Learn More
+        </a>
+      </div>
+
+      <div
+        class="hero_main_image"
+        style="width: 50%; height: 650px; padding: 0"
+      >
+        <img
+          src="./images/BG v3.png"
+          alt="hero image"
+          style="width: 100%; height: 100%; border-radius: 10px"
+        />
+      </div>
+    </div>
+
+    <!-- Hero Section close -->
+
+
+    <!-- gold and cripto chart section start -->
+     
+
+    <!-- Bootstrap JS -->
+
+    <section class="py-5 stats-section text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4">
+            <h2 class="fw-bold text-primary stat-number">10,000+</h2>
+            <p class="mb-0 stat-text">Traders Profited Using FX Cracked Bots</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h2 class="fw-bold text-success stat-number">95%</h2>
+            <p class="mb-0 stat-text">Positive Feedback on Our Strategies</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h2 class="fw-bold text-warning stat-number">50+</h2>
+            <p class="mb-0 stat-text">Trusted Indicators Reviewed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog cards -->
+
+    <!-- Blog Category Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h3 class="mb-4 fw-bold">Tech News</h3>
+
+        <!-- Category Filters -->
+        <div class="mb-4 text-center" id="catagoey_filter">
+          <button class="btn btn-outline-primary filter-btn" data-filter="all">
+            All
+          </button>
+          <button
+            class="btn btn-outline-primary filter-btn"
+            data-filter="forex-bots"
+          >
+            Forex Bots
+          </button>
+          <button
+            class="btn btn-outline-primary filter-btn"
+            data-filter="indicators"
+          >
+            Indicators
+          </button>
+          <button
+            class="btn btn-outline-primary filter-btn"
+            data-filter="strategies"
+          >
+            Trading Strategies
+          </button>
+        </div>
+
+        <!-- Blog Cards -->
+        <div class="row g-4">
+          <!-- Blog Card 1 -->
+          <div class="col-lg-4 col-md-6 blog-card" data-category="forex-bots">
+            <div class="card h-100 shadow rounded-4">
+              <img
+                src="./images/product-one.png"
+                class="card-img-top rounded-top-4"
+                alt="Blog Image"
+              />
+              <div class="card-body">
+                <!-- Category Tags -->
+                <div class="card-tags d-flex flex-wrap mb-3">
+                  <span class="badge bg-primary me-2">Beginner Guides</span>
+                  <span class="badge bg-primary">EA</span>
+                </div>
+                <h6 class="card-title">
+                  Amazon Has No Choice But to Display Tariffs on Prices Now
+                </h6>
+                <a href="#" class="text-success fw-bold">READ MORE »</a>
+              </div>
+              <div class="card-footer bg-white border-0 text-muted small">
+                April 30, 2025 • No Comments
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Card 2 -->
+          <div class="col-lg-4 col-md-6 blog-card" data-category="indicators">
+            <div class="card h-100 shadow rounded-4">
+              <img
+                src="./images/product-one.png"
+                class="card-img-top rounded-top-4"
+                alt="Blog Image"
+              />
+              <div class="card-body">
+                <!-- Category Tags -->
+                <div class="card-tags d-flex flex-wrap mb-3">
+                  <span class="badge bg-primary me-2">Indicators</span>
+                  <span class="badge bg-primary">Trading Strategies</span>
+                </div>
+                <h6 class="card-title">
+                  What is Canva Code for? 5 Essential Uses Explained
+                </h6>
+                <a href="#" class="text-success fw-bold">READ MORE »</a>
+              </div>
+              <div class="card-footer bg-white border-0 text-muted small">
+                April 30, 2025 • No Comments
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Card 3 -->
+          <div class="col-lg-4 col-md-6 blog-card" data-category="strategies">
+            <div class="card h-100 shadow rounded-4">
+              <img
+                src="./images//product-one.png"
+                class="card-img-top rounded-top-4"
+                alt="Blog Image"
+              />
+              <div class="card-body">
+                <!-- Category Tags -->
+                <div class="card-tags d-flex flex-wrap mb-3">
+                  <span class="badge bg-primary me-2">Forex Bots</span>
+                  <span class="badge bg-primary">Advanced</span>
+                </div>
+                <h6 class="card-title">
+                  Security Scares: Cybersecurity Never Sleeps – 7 Tips
+                </h6>
+                <a href="#" class="text-success fw-bold">READ MORE »</a>
+              </div>
+              <div class="card-footer bg-white border-0 text-muted small">
+                April 26, 2025 • No Comments
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        
+    <!-- What Our Customers Are Saying Section -->
+    <section class="py-5 bg-light customer-testimonials">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Side: Demo Image -->
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <img
+              src="./images/revews.png"
+              alt="Customer Testimonials"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+
+          <!-- Right Side: Text Content -->
+          <div class="col-lg-6 px-lg-5">
+            <h5 class="text-primary">What Our Customers Are Saying</h5>
+            <h2 class="fw-bold">Not Just Text, Real Stories</h2>
+            <p class="lead text-muted">
+              Hear from our satisfied customers who have transformed their Forex
+              trading journey with FXCracked. From social media shoutouts to
+              in-depth reviews, see why traders trust us.
+            </p>
+            <a href="#" class="btn btn-primary btn-lg px-4 py-2 fw-bold"
+              >Read Testimonials</a
+            >
+          </div> 
+        </div>
+      </div>
+    </section>
+                 
+    <!-- Call to Action Section -->
+    <section class="py-5 bg-light text-center cta-section">
+      <div class="container">
+        <h2 class="fw-bold display-5">
+          Join F<span style="color: #ff66c4">XC</span>racked and Start Your
+          <br />Forex Success Today!
+        </h2>
+        <p class="lead text-muted">
+          Join thousands of traders who trust FXCracked for expert insights,
+          powerful tools, and proven strategies. <br />Take the next step in
+          your trading journey today!
+        </p>
+        <div class="row justify-content-center my-4">
+          <div class="col-md-4">
+            <p class="text-success mb-2">
+              <i class="fas fa-check-circle"></i> Access premium Forex tools.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p class="text-success mb-2">
+              <i class="fas fa-check-circle"></i> Learn from expert strategies.
+            </p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center gap-3">
+          <a
+            href="./contact.html"
+            class="btn btn-primary btn-lg px-4 py-2 fw-bold"
+            >Get Started Now</a
+          >
+          <a
+            href="./about.html"
+            class="btn btn-outline-secondary btn-lg px-4 py-2 fw-bold"
+            >Learn More</a
+          >
+        </div>
+        <p class="mt-3">
+          <a href="./pricing.html" class="text-muted">See our pricing →</a>
+        </p>
+      </div>
+    </section>
+
+    <!--------------------------------------------- Footer Section ---------------------------------------- -->
+    <footer class="fx-footer">
+      <div class="container">
+        <div class="row">
+          <!-- About Us Column -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h3 class="footer-title">About Us</h3>
+            <p class="footer-about-text">
+              FXCracked is a blogging website dedicated to providing valuable
+              resources for Forex traders. We share blogs on Forex bots,
+              indicators, trading strategies, and much more to help you succeed
+              in the Forex market.
+            </p>
+            <!-- FXCracked Logo -->
+            <img
+              src="./images/FXCracked.org_.png"
+              alt="FXCracked Logo"
+              style="height: 50px; margin-top: 15px"
+            />
+          </div>
+
+          <!-- Important Links Column -->
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h3 class="footer-title">Pages</h3>
+            <ul class="footer-link-list">
+              <li class="footer-link-item"><a href="./index.html">Home</a></li>
+              <li class="footer-link-item"><a href="./about.html">About</a></li>
+              <li class="footer-link-item">
+                <a href="./popular-news.html">Blogs</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="./contact.html">Contact</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#"> <i class="fab fa-telegram"></i> Telegram </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Policy Links Column -->
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h3 class="footer-title">Policy Pages</h3>
+            <ul class="footer-link-list">
+              <li class="footer-link-item">
+                <a href="./privecy-policy.html">Privacy Policy</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="./terms-conditions.html">Terms & Conditions</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="./Refund-Policy.html">Return Policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Info Column (Moved to where Newsletter was) -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h3 class="footer-title">Contact Info</h3>
+            <ul class="footer-contact-list">
+              <li class="footer-contact-item">
+                <i class="fas fa-map-marker-alt footer-icon"></i>
+                <span>27 Tunnel Ave, London SE10 0SF, United Kingdom </span>
+              </li>
+              <li class="footer-contact-item">
+                <i class="fas fa-phone-alt footer-icon"></i>
+                <span>+44 330 027 2265</span>
+              </li>
+              <li class="footer-contact-item">
+                <i class="fas fa-envelope footer-icon"></i>
+                <span>support@yoforex.net</span>
+              </li>
+            </ul>
+
+            <!-- Newsletter Below Contact Info -->
+            <h3 class="footer-title mt-4">Newsletter</h3>
+            <p class="footer-newsletter-text">
+              Stay updated with the latest Forex trading tips, strategies, and
+              resources. Subscribe to our newsletter and never miss an update
+              from FXCracked.
+            </p>
+            <div class="footer-newsletter-form">
+              <input
+                type="email"
+                class="footer-email-input"
+                placeholder="Email Address"
+              />
+              <button class="footer-submit-btn">
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="footer-copyright">
+          <p class="copyright-text">
+            Copyright © 2024 FX Cracked. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <style>
+      /* Footer Styles - All classes prefixed with 'footer-' to avoid conflicts */
+      .fx-footer {
+        background-color: #2a3f54;
+        color: #fff;
+        padding: 60px 0 20px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .footer-title {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 25px;
+        position: relative;
+        padding-bottom: 10px;
+      }
+
+      .footer-title:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 50px;
+        height: 2px;
+        background: #ff66c4;
+      }
+
+      .footer-about-text,
+      .footer-newsletter-text {
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 1.8;
+        margin-bottom: 20px;
+      }
+
+      .footer-contact-list {
+        list-style: none;
+        padding: 0;
+      }
+
+      .footer-contact-item {
+        margin-bottom: 15px;
+        display: flex;
+        align-items: flex-start;
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      .footer-icon {
+        margin-right: 10px;
+        color: #ff66c4;
+        margin-top: 3px;
+      }
+
+      .footer-link-list {
+        list-style: none;
+        padding: 0;
+      }
+
+      .footer-link-item {
+        margin-bottom: 12px;
+      }
+
+      .footer-link-item a {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        transition: all 0.3s;
+      }
+
+      .footer-link-item a:hover {
+        color: #ff66c4;
+        padding-left: 5px;
+      }
+
+      .footer-newsletter-form {
+        display: flex;
+        margin-top: 20px;
+      }
+
+      .footer-email-input {
+        flex: 1;
+        padding: 12px 15px;
+        border: none;
+        border-radius: 4px 0 0 4px;
+        outline: none;
+      }
+
+      .footer-submit-btn {
+        background-color: #ff66c4;
+        color: white;
+        border: none;
+        padding: 0 15px;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+
+      .footer-submit-btn:hover {
+        background-color: #128c7e;
+      }
+
+      .footer-copyright {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 20px;
+        margin-top: 40px;
+        text-align: center;
+      }
+
+      .copyright-text {
+        color: rgba(255, 255, 255, 0.5);
+        margin: 0;
+        font-size: 1px;
+      }
+
+      /* Improved Responsive Design */
+      @media (max-width: 992px) {
+        .footer-title {
+          margin-top: 25px;
+        }
+        .footer-newsletter-form {
+          flex-direction: column;
+        }
+        .footer-email-input {
+          border-radius: 4px;
+          margin-bottom: 10px;
+        }
+        .footer-submit-btn {
+          border-radius: 4px;
+          padding: 12px 15px;
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .footer-title {
+          font-size: 18px;
+          margin-bottom: 15px;
+        }
+        .footer-about-text,
+        .footer-newsletter-text {
+          font-size: 14px;
+        }
+        .fx-footer {
+          padding: 40px 0 20px;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .footer-title:after {
+          width: 30px;
+        }
+        .footer-contact-item,
+        .footer-link-item {
+          font-size: 14px;
+        }
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Filter blog cards by category
+      document.querySelectorAll(".filter-btn").forEach((button) => {
+        button.addEventListener("click", () => {
+          const filter = button.getAttribute("data-filter");
+          const cards = document.querySelectorAll(".blog-card");
+
+          cards.forEach((card) => {
+            if (
+              filter === "all" ||
+              card.getAttribute("data-category") === filter
+            ) {
+              card.style.display = "block"; // Show matching cards
+            } else {
+              card.style.display = "none"; // Hide non-matching cards
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
